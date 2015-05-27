@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+/* ======= HTML ELEMENTS ======== */
+
+/* 'reset default browser settings' */
+* {
+	margin: 0;
+	padding: 0;
+    border: 0 none;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img { 
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 42px; 
+    color: #fff;
+    font-weight:900;
+    padding:20px;
+    background-color:#0197d4;
+}
+
+body {
+	margin: auto;
+	width:100%;
+    font-family: 'Source Sans Pro', sans-serif; /* Google font 'Source Sans Pro' */
+	font-size: 30px;
+}
+
+form {
+	border-top: 2px solid #aaa;
+	border-bottom: 2px solid #aaa;
+	display: block;
+	width:100%;
+}
+
+input {
+	padding: 15px;
+	width:90%;
+	text-align:center;
+}
+
+nav {
+	width: 100%;
+	background: #f4f4f4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+nav li {
+	width: 33.3%;
+	height:80px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	color: #aaa;
+	border: 1px solid #fff;
+	cursor: pointer;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+p {
+	text-align: center;
+	font-size:20px;
+	width:100%;
+	top:50%;
+	margin:auto;
+	position: relative;
+	color:#aaa;
+}
+
+
+
+/* ======= ID ELEMENTS ======== */
+
+/* info on how to remove a list item */
+p#info {
+	font-size:16px;
+}
+
+/* text supporting batterystatus and value */
+p#batteryinfo {
+	top:30%;
+	position:absolute;
+	margin:auto;
+
+}
+
+/* img button for activating camera */
+img#picture {
+    position: fixed;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+/* Add button for new list items */
+#button { 
+	padding:10px;
+	background-color: #0197d4;
+	width:30%;
+	margin:auto;
+	text-align:center;
+}
+
+/* text for Add button white */
+div#button {
+	color:#fff;
+}
+
+/* defining scale for icons in nav */
+#iconMenu {
+	margin:auto;
+	height:35px;
+	opacity:0.6;
+}
+
+
+
+
+/* ======= CLASS ELEMENTS ======== */
+
+/* New item to do list */
+.item {
+	padding-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width:90%;
+	text-align: left;
+	border-bottom:2px solid #aaa;
+}
+
+section.show {
+	display: block;
+}
+
+section.hidden {
+	display: none;
+}
+
+/* When buttons are idle */
+.up {
+	background-color: #f4f4f4;
+}
+
+/* When button is pressed */
+.down {
+	background-color: #0197d4;
+}
+
+
+
+
